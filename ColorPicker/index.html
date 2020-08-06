@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="color-picker">
+    <h1>Color Picker Project</h1>
+    <div class="square-color"></div>
+    <div class="number-color"></div>
+
+    <div class="input-range">
+      <label>Red</label>
+      <div class="color-info">
+        <input type="range" class="red-range" value="0" max="255">
+        <input type="text" readonly disabled class="red-value" value="0">
+      </div>
+
+      <label>Green</label>
+      <div class="color-info">
+        <input type="range" class="green-range" value="0" max="255">
+        <input type="text" readonly disabled class="green-value" value="0">
+      </div>
+
+      <label>Blue</label>
+      <div class="color-info">
+        <input type="range" class="blue-range" value="0" max="255">
+        <input type="text" readonly disabled class="blue-value" value="0">
+      </div>
+    </div>
+    <footer>Made by<a href="https://github.com/mariannesalomao" target="_blank" rel="noopener noreferrer">Marianne Salomão</a></footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
